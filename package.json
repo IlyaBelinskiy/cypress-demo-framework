@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "cypress:open": "cypress open --browser chrome --e2e",
-    "cypress:electron": "cypress run --spec cypress/e2e/pom/*.spec.js",
-    "cypress:chrome": "cypress run --browser chrome --spec cypress/e2e/pom/*.spec.js",
-    "cypress:edge": "cypress run --browser edge --spec cypress/e2e/pom/*.spec.js",
-    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/e2e/pom/*.spec.js --record --key 4bc50df7-5eee-4147-8eb3-ccea611c8d4b"
+    "cypress:open": "npx cypress open --browser chrome --e2e",
+    "cypress:electron": "npx cypress run --spec cypress/e2e/pom/*.spec.js",
+    "cypress:chrome": "npx cypress run --browser chrome --spec cypress/e2e/pom/*.spec.js",
+    "cypress:edge": "npx cypress run --browser edge --spec cypress/e2e/pom/*.spec.js",
+    "cypress:runChromeHeadless": "npx cypress run --headless --browser chrome --spec cypress/e2e/pom/*.spec.js --record --key 4bc50df7-5eee-4147-8eb3-ccea611c8d4b"
   },
   "keywords": [
     "e2e",
