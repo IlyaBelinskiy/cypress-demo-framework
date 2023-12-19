@@ -4,7 +4,6 @@ export default defineConfig({
   chromeWebSecurity: false,
   projectId: 'ioceso',
   screenshotOnRunFailure: true,
-  defaultCommandTimeout: 10000,
   reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
     reportDir: 'cypress/report',
